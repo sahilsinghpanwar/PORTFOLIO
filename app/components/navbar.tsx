@@ -55,11 +55,14 @@ export default function Navbar() {
   }, [mobileOpen]);
 
   const handleNavClick = (href: string) => {
+    document.body.style.overflow = '';
     setMobileOpen(false);
-    const el = document.querySelector(href);
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
+    setTimeout(() => {
+      const el = document.querySelector(href);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 60);
   };
 
   return (
@@ -174,6 +177,7 @@ export default function Navbar() {
                   return (
                     <motion.button
                       key={link.href}
+                      type="button"
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: i * 0.05 }}
