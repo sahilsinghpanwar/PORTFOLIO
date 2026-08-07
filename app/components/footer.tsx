@@ -138,7 +138,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="flex items-center justify-center pt-6 border-t border-white/10 font-mono text-[10px] sm:text-xs tracking-[0.18em] text-white/50 uppercase text-center">
           <p>© {new Date().getFullYear()} SAHIL PANWAR. ALL RIGHTS RESERVED.</p>
         </div>
