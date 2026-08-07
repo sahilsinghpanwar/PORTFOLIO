@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  ![Portfolio Banner](public/background.jpg)
+  ![Sahil Panwar Portfolio Preview](public/preview.png)
 
   <br />
 
@@ -103,6 +103,7 @@ portfolio/
 │   ├── layout.tsx               # Root layout, metadata & Lenis smooth scroll wrapper
 │   └── page.tsx                 # Home page assembling all layout sections
 ├── public/
+│   ├── preview.png              # Portfolio UI preview screenshot
 │   ├── background.jpg           # Hero background visual asset
 │   └── projects/                # Project preview screenshots
 ├── .env.local                   # Local environment variables (gitignored)
