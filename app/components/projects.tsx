@@ -83,7 +83,7 @@ const projectsData: ProjectData[] = [
     id: 'mockai',
     title: 'Mock.ai',
     subtitle: 'AI Voice-Powered Mock Interview Platform',
-    liveUrl: 'https://mock-interview-azure-rho.vercel.app',
+    liveUrl: 'https://mock-interview-seven-swart.vercel.app',
     sourceUrl: 'https://github.com/sahilsinghpanwar/mock-interview',
     image: '/projects/mock-interview-preview.png',
     paragraphs: [
