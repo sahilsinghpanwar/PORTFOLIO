@@ -60,14 +60,14 @@ interface ProjectData {
 
 const projectsData: ProjectData[] = [
   {
-    id: 'canvai',
-    title: 'Canvai',
+    id: 'Kanvas',
+    title: 'Kanvas',
     subtitle: 'AI-Powered Collaborative Whiteboard',
     liveUrl: 'https://whiteboard-platform.vercel.app',
     sourceUrl: 'https://github.com/sahilsinghpanwar/Whiteboard-platform',
     image: '/projects/whiteboard-preview.png',
     paragraphs: [
-      'Canvai is a full-stack, production-grade collaborative whiteboard built for teams that need to think and build together — in real time. It combines a performant canvas engine, rich drawing primitives, and a deeply integrated Gemini AI assistant into a single seamless workspace.',
+      'Kanvas is a full-stack, production-grade collaborative whiteboard built for teams that need to think and build together — in real time. It combines a performant canvas engine, rich drawing primitives, and a deeply integrated Gemini AI assistant into a single seamless workspace.',
       'The backend is powered by Node.js + Express with Socket.io handling live multi-user sync, JWT authentication securing every session, and Cloudinary managing media uploads. The frontend is built with React + Vite + TailwindCSS for snappy load times and fluid interactions. All board state is persisted in MongoDB with efficient delta-sync to minimise bandwidth.',
       'AI capabilities are surfaced through a context-aware chat panel — users can ask Gemini to generate flowcharts, summarise sticky notes, or draft structured content that inserts directly onto the canvas as editable nodes.',
     ],
